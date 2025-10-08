@@ -10,6 +10,7 @@ A modern C++11 template for OpenGL projects using **GLFW**, **GLEW**, **GLM** an
 - Preconfigured CMake build system
 - Example application with shader-based heightmap rendering
 - Clean, extensible codebase with modern C++ practices
+- ImGui included for interactive UI elements
 - MIT License for open collaboration
 
 ![Output Result](output.png)
