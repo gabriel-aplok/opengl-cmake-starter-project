@@ -14,7 +14,7 @@ Application& Application::getInstance() {
 }
 
 Application::Application()
-    : state(State::Ready), width(640), height(480), title("My GLFW/GLEW/GLM/ImGui App") {
+    : state(State::Ready), width(640), height(480), title("My GLFW/GLEW/GLM and ImGui App") {
   currentApplication = this;
 
   std::cout << "[Info] Initializing GLFW" << std::endl;
