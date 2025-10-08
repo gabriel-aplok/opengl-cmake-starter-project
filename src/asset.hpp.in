@@ -1,0 +1,9 @@
+#pragma once
+
+namespace asset {
+/**
+ * Defines the directory path for shader files.
+ * This is a CMake template variable, replaced with the actual path during build.
+ */
+#define SHADER_DIR "@CMAKE_SOURCE_DIR@/shader"
+}
